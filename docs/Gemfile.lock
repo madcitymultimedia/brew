@@ -232,7 +232,8 @@ GEM
     net-ftp (0.1.2)
       net-protocol
       time
-    net-protocol (0.1.0)
+    net-protocol (0.2.0)
+      timeout
     nokogiri (1.11.6)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
@@ -272,6 +273,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
     time (0.1.0)
+    timeout (0.3.1)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     tzinfo (1.2.9)
